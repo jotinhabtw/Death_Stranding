@@ -15,23 +15,34 @@
 .cabecalho{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 1.5em;
+    padding: 1em;
 }
 .logo{
-    background-color: blueviolet;
-        cursor: pointer;
-        background-repeat: no-repeat;
-        padding: 1em 1em;
-    }
-
-.cabecalho_imagens{
+    background-image: url(/img/shortCut.png);
     cursor: pointer;
-    background-color: blueviolet;
-    padding-left: 1em 3em;
-    width: 40px;
-    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.cabecalho_pesquisar{
+    display: flex;
+    align-items: center;
 }
-    
+.cabecalho_imagens{
+    background-image: url(/img/video_call.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 64px;
+}
+.pesquisar_botao{
+    background-image: url(/img/search.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+
+}
 .figura_texto{
     background-image: var(--cor-fonte);
     background-clip: text;
