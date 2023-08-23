@@ -1,0 +1,31 @@
+@media (min-width:1200px) {
+    .cabecalho {
+        margin-bottom: 2em;
+    }
+    .banner_container{
+        text-align: center;
+    }
+    .banner_ds{
+        width: 30vw;
+    }
+    .imagem_container {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        justify-content: center;
+
+    }
+    .tamanho_figura{
+        text-align: center;
+        width: 100%;
+        padding: 1em 0em;
+    }
+    .figura_texto{
+        font-size: 2.5em;
+    }
+    .tamanho_imagem{
+        width: 60vw;
+        padding-bottom: 0.5em;
+        
+    }
+}

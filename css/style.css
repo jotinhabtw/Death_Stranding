@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+:root{
+--fonte-Nanum-Gothic: 'Nanum Gothic', sans-serif;
+--fonte-Nanum-Myeongjo: 'Nanum Myeongjo', serif;
+--cor-fonte: linear-gradient(to right top, #e0e0e0, #c8c8c8, #b0b0b0, #999999, #838383);
+--cor-fundo: linear-gradient(to left, #101216, #0e0e12, #0b090c, #060406, #000000);
+}
+
+.container{
+    background-image: var(--cor-fundo);
+    color: var(--cor-fonte);
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+.logo{
+    background-color: blueviolet;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        padding: 1em 1em;
+    }
+
+.cabecalho_imagens{
+    cursor: pointer;
+    background-color: blueviolet;
+    padding-left: 1em 3em;
+    width: 40px;
+    height: 40px;
+}
+    
+.figura_texto{
+    background-image: var(--cor-fonte);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--fonte-Nanum-Gothic);
+}
+
