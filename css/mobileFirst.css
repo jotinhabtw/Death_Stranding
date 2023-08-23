@@ -14,13 +14,14 @@
     .pesquisar_input{
         border-radius: 24px;
         border: 2px solid var(--cor-fundo);
+        width: 180px;
+        height: 26px;
     }
-
     .pesquisar_botao{
-        height: 16px;
-        width: 16px;
+        height: 20px;
+        width: 20px;
         margin-left: 0.5em;
-        background-size: 15px;
+        background-size: 20px;
     }
     .banner_container{
         text-align: center;
