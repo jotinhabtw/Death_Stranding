@@ -20,7 +20,7 @@
     padding: 1em;
 }
 .logo{
-    background-image: url(img/shortCut.png);
+    background-image: url(/img/shortCut.png);
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,13 +30,13 @@
     align-items: center;
 }
 .cabecalho_imagens{
-    background-image: url(img/video_call.png);
+    background-image: url(/img/video_call.png);
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: 64px;
 }
 .pesquisar_botao{
-    background-image: url(img/search.png);
+    background-image: url(/img/search.png);
     cursor: pointer;
     background-repeat: no-repeat;
     border: none;
